@@ -2,9 +2,10 @@
   "name": "neuronotes-ai",
   "version": "1.0.0",
   "description": "AI-powered PDF study tool",
+  "license": "MIT",
   "scripts": {
-    "install-all": "cd server && npm install && cd ../client && npm install",
-    "build": "cd client && npm run build",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "npm run install-all && cd client && npm run build",
     "start": "cd server && node server.js",
     "dev": "cd server && npm run dev"
   }
