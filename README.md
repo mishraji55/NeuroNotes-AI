@@ -7,7 +7,7 @@ AI-powered PDF study tool — upload PDFs and auto-generate summaries, flashcard
 - **Frontend:** React + Vite
 - **Backend:** Node.js + Express
 - **Database:** MongoDB Atlas
-- **AI:** Google Gemini API (gemini-1.5-flash)
+- **AI:** Google Gemini API (gemini-2.5-flash)
 - **Auth:** JWT
 
 ## Setup
