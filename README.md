@@ -47,8 +47,8 @@ npm run dev
 
 | Method | Endpoint | Auth | Description |
 |--------|----------|------|-------------|
-| POST | `/api/auth/register` | ✗ | Create account |
-| POST | `/api/auth/login` | ✗ | Login |
+| POST | `/api/auth/register` | ✓ | Create account |
+| POST | `/api/auth/login` | ✓ | Login |
 | POST | `/api/upload` | ✓ | Upload PDF |
 | POST | `/api/ai/summarize` | ✓ | Generate summary |
 | POST | `/api/ai/flashcards` | ✓ | Generate flashcards |
